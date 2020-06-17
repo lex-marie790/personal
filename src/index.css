@@ -24,6 +24,7 @@ code {
   line-height: 1.2;
   transform: rotateX(-10deg) rotateY(20deg);
   font-weight: 900;
+  cursor: context-menu;
   /* background-color: #fff; */
 }
 
@@ -37,9 +38,10 @@ code {
 	-o-transition: 500ms linear 0s;
 	transition: 500ms linear 0s;
   outline: 0 none;
+  cursor: context-menu;
 }
 
-.link:hover, a:focus {
+.link:hover {
   transform: rotate(20deg);
   color: #aaf;
 	text-shadow: none;
@@ -48,8 +50,9 @@ code {
 	-o-transition: 500ms linear 0s;
 	transition: 500ms linear 0s;
   outline: 0 none;
-  background: linear-gradient(to bottom, #ff75d6, #bd60b4, #a37ddf, #5aaee1, #88c6ec);
+  background: linear-gradient(45deg, #ff75d6, #bd60b4, #a37ddf, #5aaee1, #88c6ec);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  cursor: context-menu;
 }
 
